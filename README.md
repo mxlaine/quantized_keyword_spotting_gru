@@ -4,10 +4,12 @@ An IC design project: a small GRU that recognizes 12 spoken commands (ten
 keywords, "unknown" and silence), and how much accuracy it loses when its
 weights and activations are compressed to 8-bit integers.
 
-**Short answer: almost none.** The largest model goes from 97.24% to 97.17%
-accuracy while its weights shrink 4× (183 KiB → 46 KiB).
+
 
 ## Results
+
+The largest model goes from 97.24% to 97.17%
+accuracy while its weights shrink 4x (183 KiB → 46 KiB).
 
 Mean ± standard deviation over three seeds.
 
